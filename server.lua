@@ -2,8 +2,8 @@ AddEventHandler('onResourceStart', function(resourceName)
     if (GetCurrentResourceName() ~= resourceName) then
       return
     end
-    print('Gracias por utilizar mi script, te invito a mi discord para conocer sobre otros scripts.')
-    print('discord.gg/difamadosrp')
+    print('Gracias por utilizar mi script, te invito a mi discord para conocer sobre mis otros scripts.')
+    print('https://discord.gg/SyfSquKefU')
   end)
 
   RegisterServerEvent('pk:reportlog')
