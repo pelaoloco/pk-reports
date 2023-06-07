@@ -16,7 +16,7 @@ AddEventHandler('pk:reportlog', function(motiv)
     if motiv == nil then
 
     else
-        local xPlayers = ESX.GetPlayers()
+        local xPlayers = ESX.GetExtendedPlayers()
         for i=1, #xPlayers do
             local player = xPlayers[i]
             local playerName = GetPlayerName(player)
