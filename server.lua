@@ -14,7 +14,7 @@ AddEventHandler('onResourceStart', function(resourceName)
       local xPlayer = ESX.GetPlayerFromId(playerId)
   
       if motiv == nil then
-          -- Lógica para manejar el motivo nulo
+          -- test
       else
           local xPlayers = ESX.GetPlayers()
           for i = 1, #xPlayers do
@@ -31,7 +31,7 @@ AddEventHandler('onResourceStart', function(resourceName)
   
 
 function DiscordLog(autor, title, message, futer)
-    local webHook = 'https://discord.com/api/webhooks/1110371790464753684/wpgx196vxr7KFO6xud-BUaVojYYRF3UpE0Zk38wXvUpuYakGfveOX9y8mfKGg367qbss'
+    local webHook = ''
     local embedData = {{
         ['title'] = title,
         ['color'] = 16711680,
