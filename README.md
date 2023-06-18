@@ -1,9 +1,11 @@
-# pk-reports
-Un sistema simple de reportes.
+# 🚀 Sistema de Reportes
 
-## Requisitos
+¡Facilita la generación de reportes en tu servidor y mantén un registro ordenado en Discord y en el chat IC! ✉️💡
 
-    ESX en ultima version
-    ox_lib actualizado
+## Características principales
 
-[Discord](https://discord.gg/SyfSquKefU)
+- **Registro en Discord:** Genera reportes directamente desde Discord con un comando especial o un menú interactivo. ¡Sin complicaciones! 💬📝
+
+- **Registro en el chat IC:** Los reportes también se muestran en el chat IC del servidor. ¡Mantén a todos informados directamente en el juego! 🎮📢
+
+- **Notificaciones y seguimiento:** Los administradores reciben notificaciones inmediatas de nuevos reportes. ¡Responde y soluciona rápidamente! 📣🔍
