@@ -11,7 +11,7 @@ RegisterServerEvent('pk:reportlog', function(motiv)
     local xPlayer = ESX.GetPlayerFromId(playerId)
 
     if motiv then 
-        local xPlayers = ESX.GetExtendedPlayers() 
+        local xPlayers = ESX.GetPlayers() 
         for i = 1, #xPlayers do
             local player = xPlayers[i]
             local xPlayer = ESX.GetPlayerFromId(player)
